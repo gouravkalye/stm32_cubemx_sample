@@ -114,7 +114,8 @@ int main(void)
   {
 
   HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5); //Toggle the state of LED2
-  HAL_Delay(100); //delay 100ms
+  HAL_Delay(500); //delay 100ms
+   sprintf("toggle pin");
 
   }
   /* USER CODE END 3 */
